@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipper</title>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!--custom css file-->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+      <!--header section starts-->
+    <header class="header">
+
+        <nav class="navbar">
+            <div class="nav_items">
+                <!-- <div class="fas fa-search icon" id="search-btn">Search</div> -->
+                <!-- <div class="search-form">
+                    <input type="search" id="search-box">
+                    <i class="bi bi-search">Search</i>
+                </div> -->
+                <!-- <a href="#search">Search</a> -->
+                <div>Search</div>
+                <div href="#appication">Application</div>
+                <div href="#jobs">Jobs</div>
+                <div href="#emails">Emails</div>
+            </div>
+            <div class="nav_items-two">
+                <div class="bell">
+                    <i class="bi bi-bell">23</i>
+                </div>
+                <img src="./img/hero.jpg" alt="">
+            </div>   
+        </nav>
+
+    </header>
+
+    <section class="home">
+        <div class="home_content">
+            <div>
+                <div class="clear">
+                    <div class="found">204 found</div>
+                    <div>Clear filters</div>
+                </div>
+                <div class="dropdown_card">
+                    <div class="skills" id="skills">Skills</div>
+                    <div class="skills_details">
+                        <div class="skill_content">
+                            design
+                        </div>
+                        <div class="skill_content">
+                            ux
+                        </div>
+                        <div class="skill_content">
+                            figma
+                        </div>
+                    </div>
+                    <div class="add_skill" id="add_skill">+add skill</div>
+                    <!-- <div class="skills_list">
+                        <div>
+                            <div class="skill_content">design</div>
+                            <div class="skill_content">ux</div>
+                            <div class="skill_content">photoshop</div>
+                            <div class="skill_content">layout</div>
+                        </div>
+                        <div>
+                            <div class="skill_content">design</div>
+                            <div class="skill_content">ux</div>
+                            <div class="skill_content">photoshop</div>
+                            <div class="skill_content">layout</div>
+                        </div>
+                    </div> -->
+                </div>
+                <div class="dropdown_card">
+                    <div class="industry" id="industry">Industry</div>
+                    <div class="industry_details">
+                        <div class="skills_details">
+                            <div class="industry_content">
+                                automative
+                            </div>
+                        </div>
+                        <div class="add_industry" id="add_industry">+add industry</div>
+                    </div>
+                </div>
+                <div class="dropdown_card" >
+                    <div class="experience" id="experience">Experience</div>
+                    <div class="experience_details">
+                        <div class="sub_content">
+                            <input type="checkbox">
+                            <label for="less than 1">Less than 1 year</label>
+                        </div>
+                        <div class="sub_content">
+                            <input type="checkbox">
+                            <label for="1 to 3">1 to 3 year</label>
+                        </div>
+                        <div class="sub_content">
+                            <input type="checkbox">
+                            <label for="3 to 5">3 to 5 year</label>
+                        </div>
+                        <div class="sub_content">
+                            <input type="checkbox">
+                            <label for="more than">more than 5 years</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="dropdown_card">
+                    <div class="seniority" id="seniority">seniority</div>
+                    <div class="seniority_details">
+                        <div class="sen_content">
+                            <input type="checkbox">
+                            <label for="junior">Junior</label>
+                        </div>
+                        <div class="sen_content">
+                            <input type="checkbox">
+                            <label for="middle">Middle</label>
+                        </div>
+                        <div class="sen_content">
+                            <input type="checkbox">
+                            <label for="senior">Senior</label>
+                        </div>
+                        <div class="sen_content">
+                            <input type="checkbox">
+                            <label for="Expert">Expert</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="dropdown_card">
+                    <div class="extras" id="extras">Extras</div>
+                    <div class="extras_details">
+                        <div class="extra_content">
+                            <input type="checkbox">
+                            <label for="top company">Top companies</label>
+                        </div>
+                        <div class="extra_content">
+                            <input type="checkbox">
+                            <label for="curated">Curated</label>
+                        </div>
+                        <div class="extra_content">
+                            <input type="checkbox">
+                            <label for="influencer">Industry Influencer</label>
+                        </div>
+                        <div class="extra_content">
+                            <input type="checkbox">
+                            <label for="dribble">Dribble Star</label>
+                        </div>
+                    </div>
+                </div>
+                <div>Save Search</div>
+            </div>
+            
+            <div class="persons">
+                <div class="filter">
+                    <div class="select">Select all</div>
+                    <div> <span>sort</span> Relevance </div>
+                </div>
+                <div class="person_details" id="person-btn">
+                    <img src="./img/hero.jpg" alt="">
+                    <div class="per_name">Max jameson</div> 
+                    <div class="per_skills">design,ux,figma,photoshop +34</div> 
+                    <div class="per_rating">94%</div>
+                    <div class="per_msg">send message</div> 
+                </div>
+                <div class="person_details" id="person-btn1">
+                    <img src="./img/hero.jpg" alt="">
+                    <div class="per_name">Max jameson</div> 
+                    <div class="per_skills">design,ux,figma,photoshop +34</div> 
+                    <div class="per_rating">94%</div>
+                    <div class="per_msg">send message</div> 
+                </div>
+                <div class="person_details" id="person-btn2">
+                    <img src="./img/hero.jpg" alt="">
+                    <div class="per_name">Max jameson</div> 
+                    <div class="per_skills">design,ux,figma,photoshop +34</div> 
+                    <div class="per_rating">94%</div>
+                    <div class="per_msg">send message</div> 
+                </div>
+                <div class="person_details" id="person-btn3">
+                    <img src="./img/hero.jpg" alt="">
+                    <div class="per_name">Max jameson</div> 
+                    <div class="per_skills">design,ux,figma,photoshop +34</div> 
+                    <div class="per_rating">94%</div>
+                    <div class="per_msg">send message</div> 
+                </div>
+                <div class="person_details" id="person-btn4">
+                    <img src="./img/hero.jpg" alt="">
+                    <div class="per_name">Max jameson</div> 
+                    <div class="per_skills">design,ux,figma,photoshop +34</div> 
+                    <div class="per_rating">94%</div>
+                    <div class="per_msg">send message</div> 
+                </div>
+                <div class="person_details" id="person-btn5">
+                    <img src="./img/hero.jpg" alt="">
+                    <div class="per_name">Max jameson</div> 
+                    <div class="per_skills">design,ux,figma,photoshop +34</div> 
+                    <div class="per_rating">94%</div>
+                    <div class="per_msg">send message</div> 
+                </div>
+                <div class="person_details" id="person-btn6">
+                    <img src="./img/hero.jpg" alt="">
+                    <div class="per_name">Max jameson</div> 
+                    <div class="per_skills">design,ux,figma,photoshop +34</div> 
+                    <div class="per_rating">94%</div>
+                    <div class="per_msg">send message</div> 
+                </div>
+                <div class="person_details" id="person-btn7">
+                    <img src="./img/hero.jpg" alt="">
+                    <div class="per_name">Max jameson</div> 
+                    <div class="per_skills">design,ux,figma,photoshop +34</div> 
+                    <div class="per_rating">94%</div>
+                    <div class="per_msg">send message</div> 
+                </div>
+                <div class="person_description">
+                    <div class="person_details-two">
+                        <img src="./img/hero.jpg" alt="">
+                        <div class="per_name">Max jameson</div> 
+                        <div class="per_skills">design,ux,figma,photoshop +34</div> 
+                        <div class="per_rating">94%</div>
+                        <div class="per_msg">send message</div> 
+                    </div>
+                    <div class="per_exp">
+                        <div class="per_name">
+                            <div class="per_role">
+                                <div class="sub_title">Role</div>
+                                <div>Designer</div>
+                            </div>
+                            <div class="per_role">
+                                <div class="sub_title">seniority</div>
+                                <div>Middle</div>
+                            </div>
+                            <div class="per_role">
+                                <div class="sub_title">Experience</div>
+                                <div>5+ years</div>
+                            </div>
+                        </div>
+                        <div class="person_skills">
+                            <div class="sub_title">Skills</div>
+                            <div class="per_skill">
+                                <div>
+                                    <div class="skill_details">design</div>
+                                    <div class="skill_details">ux</div>
+                                    <div class="skill_details">photoshop</div>
+                                    <div class="skill_details">layout</div>
+                                </div>
+                                <div>
+                                    <div class="skill_details">layout</div>
+                                    <div class="skill_details">figma</div>
+                                    <div class="skill_details">grids</div>
+                                    <div class="skill_details">saas</div>
+                                </div>
+                                <div>
+                                    <div class="skill_details">design</div>
+                                    <div class="skill_details">figma</div>
+                                    <div class="skill_details">grids</div>
+                                    <div class="skill_details">saas</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="person_rating">
+                            <div class="sub_title">match your jobs</div>
+                            <div class="per_role-two">
+                                <div class="person_job">
+                                    <div>Product Designer</div>
+                                    <div class="sub_title">Microsoft Inc.</div>
+                                </div>
+                                94%
+                            </div>
+                            <div class="per_role-two">
+                                <div class="person_job">
+                                    <div>UX Designer</div>
+                                    <div class="sub_title">Slack Inc.</div>
+                                </div>
+                                89%
+                            </div>
+                            <div class="per_role-two">
+                                <div class="person_job">
+                                    <div>Product Designer</div>
+                                    <div class="sub_title">Qeam</div>
+                                </div>
+                                94%
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="per_private">
+                        <div class="per_name">
+                            <div class="per_role">
+                                <div class="sub_title">Location</div>
+                                <div>Tallinn</div>
+                            </div>
+                            <div class="per_role">
+                                <div class="sub_title">Timezone</div>
+                                <div>EET(GMT+22)</div>
+                            </div>
+                        </div>
+                        <div class="about">
+                            <div class="sub_title">About</div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non nobis laudantium, dolores voluptatum quas officia, perferendis recusandae architecto voluptateolor praesentium labore?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+    <!--custom js file-->
+    <script src="app.js"></script>
+</body>
+</html>
