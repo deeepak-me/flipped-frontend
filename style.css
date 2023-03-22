@@ -346,6 +346,21 @@ section {
     margin-right: 4px;
 }
 
+.search {
+    border: .1rem solid #5E93CD;
+    color: #5E93CD;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 62px;
+    padding-right: 62px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 8px;
+}
+
 
 .persons{
     flex: 1;
