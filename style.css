@@ -193,9 +193,9 @@ section {
 }
 
 .experience_details{
-    position: absolute;
-    top: 129%;
-    right: 80%;
+    position: relative;
+    top: 0%;
+    right: 0%;
     /* background: #fff;
     width: 50rem;
     height: 5rem;
@@ -224,9 +224,9 @@ section {
 }
 
 .seniority_details{
-    position: absolute;
+    /* position: absolute;
     top: 148%;
-    right: 84%;
+    right: 84%; */
     /* background: #fff; */
     /* width: 50rem;
     height: 5rem; */
@@ -255,10 +255,10 @@ section {
     font-weight: 600;
 }
 
-.extra_details{
-    position: absolute;
+.extras_details{
+    /* position: absolute;
     top: 148%;
-    right: 84%;
+    right: 84%; */
     /* background: #fff; */
     /* width: 50rem;
     height: 5rem; */
@@ -272,7 +272,7 @@ section {
     padding: 6px;
 }
 
-.extra_details.active{
+.extras_details.active{
     transform: scaleY(1);
 }
 
